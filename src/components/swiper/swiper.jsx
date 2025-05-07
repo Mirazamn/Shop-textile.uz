@@ -4,6 +4,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css';
 import Container from '../../assets/Container.svg'
+import Container2 from '../../assets/Container-copy.svg'
 
 import Sidebar from '../../assets/sidebar.svg'
 
@@ -34,7 +35,7 @@ function SwiperSect() {
 
         <SwiperSlide>
           <div>
-            <img src={Container} alt="" />
+            <img src={Container2} alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
