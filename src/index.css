@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  padding: 0 100px;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+
+:root {
+  --brand-color: #D00000;
+  --text-color: #3E444A;
+  --main-bg: #FFFFFF;
+  --secondary: #F4F4F4;
+}

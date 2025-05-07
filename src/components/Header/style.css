@@ -1,0 +1,95 @@
+/* Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header container */
+  .header {
+    background-color: #cf0000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    color: white;
+    width: 1920;
+  height: 141;
+  top: -57px;
+  
+  }
+  
+  /* Logo */
+  .logo h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .logo .shop {
+    font-weight: 900;
+    margin-right: 5px;
+  }
+  
+  .logo .textile {
+    font-weight: 400;
+  }
+  
+  /* Search */
+  .search-box input {
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: none;
+    width: 280px;
+    font-size: 14px;
+  }
+  
+  /* Icons */
+  .header-icons {
+    display: flex;
+    gap: 16px;
+    font-size: 14px;
+  }
+  
+  .icon-link {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+  
+  .icon-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      gap: 12px;
+      align-items: stretch;
+    }
+  
+    .search-box input {
+      width: 100%;
+    }
+  
+    .header-icons {
+      justify-content: center;
+    }
+  }
+  
+  option{
+    background: rgb(252, 3, 3);
+    border: none;
+  }
+  select{
+    background: rgb(253, 4, 4);
+    border: none;
+  }
+  
+  .logo{
+    margin-left: 100px;
+  }
+  
+  .div{
+    margin-left: 100px;
+    margin-top: 100px;
+  }
